@@ -33,7 +33,6 @@ public class MainPageController extends HttpServlet {
 
 		HttpSession session = req.getSession();
 		if (session.getAttribute("logOK") == null) {
-			System.out.println(1);
 			resp.sendRedirect("../login?loginfail=" + path);
 			
 
@@ -59,4 +58,4 @@ public class MainPageController extends HttpServlet {
 
 	} // end doProcess()
 
-} // end class()
+} // end class
