@@ -57,4 +57,4 @@ public class MainPageController extends HttpServlet {
 
 	} // end doProcess()
 
-} // end class
+} // end class()
