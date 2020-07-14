@@ -17,8 +17,8 @@
 			<li><a href="#">Sign In</a></li>
 		</ul>
 	</header> -->
-	
-<div class="container" id="container">
+<section class="signin">
+<div class="signinbox" id="signinbox">
 	<div class="form-container sign-up-container">
 		<form action="#">
 			<h1>Create Account</h1>
@@ -52,6 +52,7 @@
 		</div>
 	</div>
 </div>
+</section>
 	
 	<section class="mainPage">
 		<img src="${pageContext.request.contextPath}/mainpageview/images/skybg.jpg" id="skybg">
