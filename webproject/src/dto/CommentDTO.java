@@ -2,7 +2,7 @@ package dto;
 
 public class CommentDTO {
 	private int Comment_Seq, Post_Num, Comment_Ref, Comment_Step, Comment_Level;
-	private String Comment_Name;
+	private String Comment_Name, Comment_Content;
 
 	public CommentDTO() {
 		// TODO Auto-generated constructor stub
@@ -54,6 +54,14 @@ public class CommentDTO {
 
 	public void setComment_Name(String comment_Name) {
 		Comment_Name = comment_Name;
+	}
+	
+	public String getComment_Content() {
+		return Comment_Content;
+	}
+
+	public void setComment_Content(String comment_Content) {
+		Comment_Content = comment_Content;
 	}
 
 }
