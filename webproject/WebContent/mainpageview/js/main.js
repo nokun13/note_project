@@ -11,14 +11,14 @@
 
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
+const signinbox = document.getElementById('signinbox');
 
 signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
+	signinbox.classList.add("right-panel-active");
 });
 
 signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
+	signinbox.classList.remove("right-panel-active");
 });
 
 /* signin form effect end /////////////////////////////////////////////////////////*/
@@ -36,7 +36,7 @@ window.addEventListener('scroll', function(){
 	moon.style.left = -value * 0.25 + 'px';
 	mountain.style.top = -value * 0.1 + 'px';
 	road.style.top = value * 0.05 + 'px';
-	mainText.style.top = value * 0.05 + 'px';
+	mainText.style.top = value * 0.1 + 'px';
 });
 
 /* parallax scroll effect end /////////////////////////////////////////////////////////*/
