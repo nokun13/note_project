@@ -71,5 +71,13 @@ public class AccountDTO {
 	public void setAccount_Phon_Num(String account_Phon_Num) {
 		Account_Phon_Num = account_Phon_Num;
 	}
+	
+	public String getAccount_About() {
+		return Account_About;
+	}
+
+	public void setAccount_About(String account_About) {
+		Account_About = account_About;
+	}
 
 }
