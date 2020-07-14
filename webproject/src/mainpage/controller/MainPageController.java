@@ -40,6 +40,7 @@ public class MainPageController extends HttpServlet {
 			return;
 		}
 		// System.out.println(path);
+		System.out.println(test);
 		path = path.substring(path.lastIndexOf("/") + 1);
 		if (path.equals("*")) {
 			path = "list.do";
