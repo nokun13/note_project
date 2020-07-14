@@ -14,7 +14,8 @@ body {
 
 nav{
 padding : 5px 20px;
- border-bottom:  1px solid black; 
+ 
+ height: 10vh;
 }
 .nav-contents {
   width: 1010px;
@@ -101,6 +102,7 @@ height: 30px;
 			</div>
 		</div>
 	</nav>
+	
 	
 </body>
 
