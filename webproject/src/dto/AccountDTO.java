@@ -2,7 +2,7 @@ package dto;
 
 public class AccountDTO {
 	private int Account_Num, Account_Flag;
-	private String Account_Id, Account_Password, Account_Name, Account_Email, Account_Img, Account_Phon_Num;
+	private String Account_Id, Account_Password, Account_Name, Account_Email, Account_Img, Account_Phon_Num, Account_About;
 
 	public AccountDTO() {
 
