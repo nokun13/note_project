@@ -31,12 +31,6 @@ padding : 5px 20px;
 }
 
 
-.nav-search{
-width: 30px;
-height: 30px;
-}
-
-
 .logo-text {
   height: 29px;
   margin-top: 5px;
@@ -56,7 +50,14 @@ height: 30px;
   font-weight: lighter;
   outline: 0;
   padding: 8px 10px 8px 26px;
+  float:right;
   
+}
+.search-btn{
+width:35px;
+height:34px;
+float:right;
+
 }
 
 .nav-link {
@@ -84,14 +85,14 @@ height: 30px;
 	  <div class="nav-contents">
 			<div class="nav-logo">
 				<img class="logo-img" src=""/>
-				<div class="vertical-line"></div>
+
 				<h1>logo</h1>
 			</div>
 			
-          
+          <div>
 			<input class="nav-search" placeholder="검색" >
-			
-		
+			<img class="search-btn" src="이미지/검색.JPG"/>
+		</div>
 			
 				
 
